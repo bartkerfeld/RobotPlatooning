@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ld_multi_sector.dir/c++/examples/ld/ld_multi_sector/src/main.cc.o  -o /home/bart/workspace/AERO/devel/lib/sicktoolbox/ld_multi_sector -rdynamic /home/bart/workspace/AERO/devel/lib/libSickLD.so -lpthread -Wl,-rpath,/home/bart/workspace/AERO/devel/lib: 

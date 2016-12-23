@@ -1,0 +1,8 @@
+prefix=/home/bart/workspace/AERO/devel
+
+Name: master_launch
+Description: Description of master_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/bart/workspace/AERO/devel/lib 
+Requires: 

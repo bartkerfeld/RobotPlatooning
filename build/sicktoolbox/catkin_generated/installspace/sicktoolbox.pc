@@ -1,0 +1,8 @@
+prefix=/home/bart/workspace/AERO/install
+
+Name: sicktoolbox
+Description: Description of sicktoolbox
+Version: 1.0.103
+Cflags: -I/home/bart/workspace/AERO/install/include
+Libs: -L/home/bart/workspace/AERO/install/lib -lSickLD -lSickLMS1xx -lSickLMS2xx
+Requires: 

@@ -1,0 +1,2 @@
+calibration:master_launch:master_navigator:nav_common:rosaria:sicktoolbox:sicktoolbox_wrapper:sim_navigator:slave_launch:slave_navigator
+-DCATKIN_DEVEL_PREFIX=/home/bart/workspace/AERO/devel -DCMAKE_INSTALL_PREFIX=/home/bart/workspace/AERO/install -G Unix Makefiles

@@ -1,0 +1,11 @@
+<launch>
+	<node pkg = "rosaria" type = "RosAria" name = "RosAria">
+    <param name="trans_accel" value="0.5" type="double"/>
+    <param name="trans_decel" value="0.5" type="double"/>
+    <param name="rot_accel" value="0.5" type="double"/>
+    <param name="rot_decel" value="0.5" type="double"/>
+		<param name="port" value="/dev/ttyUSB0" type="string"/>
+    <param name="enable_motors" value="true" type="boolean"/>
+	</node>
+	<node pkg="calibration" type="calibrate" name="calibrate" output="screen" />
+</launch>

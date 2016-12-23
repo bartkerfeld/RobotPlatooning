@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ld_config.dir/c++/examples/ld/ld_config/src/main.cc.o  -o /home/bart/workspace/AERO/devel/lib/sicktoolbox/ld_config -rdynamic /home/bart/workspace/AERO/devel/lib/libSickLD.so /home/bart/workspace/AERO/devel/lib/libLDConfigLib.so -lpthread -Wl,-rpath,/home/bart/workspace/AERO/devel/lib: 

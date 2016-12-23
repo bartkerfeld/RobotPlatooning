@@ -1,0 +1,8 @@
+prefix=/home/bart/workspace/AERO/devel
+
+Name: nav_common
+Description: Description of nav_common
+Version: 0.0.0
+Cflags: -I/home/bart/workspace/AERO/devel/include -I/home/bart/workspace/AERO/src/nav_common/include
+Libs: -L/home/bart/workspace/AERO/devel/lib -lnav_common
+Requires: message_runtime

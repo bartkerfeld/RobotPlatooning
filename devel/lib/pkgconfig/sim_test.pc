@@ -1,0 +1,8 @@
+prefix=/home/bart/workspace/AERO/devel
+
+Name: sim_test
+Description: Description of sim_test
+Version: 0.0.0
+Cflags: -I/home/bart/workspace/AERO/src/sim_test/include
+Libs: -L/home/bart/workspace/AERO/devel/lib 
+Requires: 

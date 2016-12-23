@@ -1,0 +1,8 @@
+prefix=/home/bart/workspace/AERO/devel
+
+Name: rosaria
+Description: Description of rosaria
+Version: 0.9.0
+Cflags: -I/home/bart/workspace/AERO/devel/include
+Libs: -L/home/bart/workspace/AERO/devel/lib 
+Requires: roscpp nav_msgs geometry_msgs sensor_msgs tf

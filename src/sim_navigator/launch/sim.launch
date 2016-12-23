@@ -1,0 +1,28 @@
+<launch>
+  <param name="/RosAria/trans_accel" value="0.5" type="double"/>
+  <param name="/RosAria/trans_decel" value="0.5" type="double"/>
+  <param name="/RosAria/rot_accel" value="0.5" type="double"/>
+  <param name="/RosAria/rot_decel" value="0.5" type="double"/>
+  <param name="/RosAria/publish_aria_lasers" value="false" type="boolean"/>
+  <param name="/RosAria/enable_motors" value="true" type="boolean"/>
+  <param name="/sicklms/port" value="/dev/ttyUSB1" type="string"/>
+  <param name="/sicklms/resolution" value="1.0" type="double"/>
+  <node
+      pkg="rosaria"
+      type="RosAria"
+      name="RosAria"
+      output="screen"
+      />
+  <node
+      pkg="sicktoolbox_wrapper"
+      type="sicklms"
+      name="sicklms"
+      output="screen"
+      />
+  <node
+      pkg="sim_navigator"
+      type="sim_navigator"
+      name="sim_navigator"
+      output="screen"
+      />
+</launch>

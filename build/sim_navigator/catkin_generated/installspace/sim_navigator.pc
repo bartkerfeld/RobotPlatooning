@@ -1,0 +1,8 @@
+prefix=/home/bart/workspace/AERO/install
+
+Name: sim_navigator
+Description: Description of sim_navigator
+Version: 0.0.0
+Cflags: -I/home/bart/workspace/AERO/install/include
+Libs: -L/home/bart/workspace/AERO/install/lib 
+Requires: 
